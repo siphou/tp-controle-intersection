@@ -1,7 +1,6 @@
 from machine import Pin
 from time import sleep
 
-# Initialisation des pins
 led_rouge = Pin(0, Pin.OUT)
 led_orange = Pin(1, Pin.OUT)
 led_verte = Pin(2, Pin.OUT)
