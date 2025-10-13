@@ -1,9 +1,9 @@
 from machine import Pin
 from time import sleep
 
-led_rouge = Pin(0, Pin.OUT)
-led_orange = Pin(1, Pin.OUT)
-led_verte = Pin(2, Pin.OUT)
+led_rouge = Pin(18, Pin.OUT)
+led_orange = Pin(19, Pin.OUT)
+led_verte = Pin(20, Pin.OUT)
 bp = Pin(15, Pin.IN, Pin.PULL_UP)
 
 def Attendre(delai):
