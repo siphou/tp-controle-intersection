@@ -1,8 +1,8 @@
 from machine import Pin
 from time import sleep
-from lib.grove_lcd_i2c import Grove_LCD_I2C
+from grove_lcd_i2c import Grove_LCD_I2C
 
-lcd = Grove_LCD_I2C(0, scl=Pin(3), sda=Pin(2))
+lcd = Grove_LCD_I2C(2, scl=Pin(3), sda=Pin(2))
 led_rouge = Pin(18, Pin.OUT)
 led_orange = Pin(19, Pin.OUT)
 led_verte = Pin(20, Pin.OUT)
@@ -36,3 +36,4 @@ except KeyboardInterrupt:
     led_orange.off()
     led_verte.off()
     lcd.setText("Systeme arrete")
+
