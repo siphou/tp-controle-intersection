@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-btn_pin = Pin(15, Pin.IN, Pin.PULL_UP)
+btn_pin = Pin(5, Pin.IN, Pin.PULL_UP)
 
 dernier_appui = 0
 DELAI_REBOND = 200  
