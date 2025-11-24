@@ -22,7 +22,7 @@ password = ''
 ip = connect()
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-HOST = '172.16.52.211'
+HOST = '172.16.12.121'
 PORT = 5001
 s.connect((HOST, PORT))
 
